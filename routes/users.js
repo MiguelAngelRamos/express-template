@@ -16,7 +16,7 @@ router.get('/', (req, res) => {
 
     // Renderiza a la vista 'users'
     // res.render('users', { users, layout: 'layouts/layout'});
-    res.render('users', { users: users, layout: 'layouts/layout'});
+    res.render('users', { users: users, title: 'App Usuarios', layout: 'layouts/layout'});
   });
 });
 
